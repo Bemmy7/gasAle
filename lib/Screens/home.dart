@@ -227,7 +227,7 @@ class _Home extends State<Home> {
               height: MediaQuery.of(context).size.height,
               decoration: BoxDecoration(
                   gradient: LinearGradient(colors: [
-                Color(0xff6dd5ed),
+                Color(0xff6dd5ee),
                 Color(0xff2193b0),
               ], begin: Alignment.centerLeft, end: Alignment.centerRight)),
             ),
