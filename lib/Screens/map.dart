@@ -22,7 +22,7 @@ class _MapView extends State<MapView> {
   LatLng temp;
   double div = 10;
   String json =
-      "{\"0\":{\"latitude\":8.980603,\"longitude\":38.757759,\"Name\":\"Total\",\"RDG\":\"AUN\",\"Distance\":69},\"1\":{\"latitude\":8.980703,\"longitude\":38.757959,\"Name\":\"Shell\",\"RDG\":\"AAN\",\"Distance\":420},\"2\":{\"latitude\":8.988603,\"longitude\":38.758759,\"Name\":\"Total\",\"RDG\":\"UAN\",\"Distance\":12},   \"3\":{\"latitude\":8.998603,\"longitude\":38.458759,\"Name\":\"Total\",\"RDG\":\"NAN\",\"Distance\":112},   \"4\":{\"latitude\":8.928603,\"longitude\":38.958759,\"Name\":\"Total\",\"RDG\":\"NNN\",\"Distance\":52},\"5\":{\"latitude\":8.978603,\"longitude\":38.858759,\"Name\":\"Total\",\"RDG\":\"NNN\",\"Distance\":72}}";
+      "{\"0\":{\"latitude\":8.980603,\"longitude\":38.757759,\"Name\":\"Total\",\"RDG\":\"AUN\",\"Distance\":4},\"1\":{\"latitude\":8.980703,\"longitude\":38.757959,\"Name\":\"Shell\",\"RDG\":\"AAN\",\"Distance\":10},\"2\":{\"latitude\":8.988603,\"longitude\":38.758759,\"Name\":\"Total\",\"RDG\":\"UAN\",\"Distance\":12},   \"3\":{\"latitude\":8.998603,\"longitude\":38.458759,\"Name\":\"Total\",\"RDG\":\"NAN\",\"Distance\":18},   \"4\":{\"latitude\":8.928603,\"longitude\":38.958759,\"Name\":\"Total\",\"RDG\":\"NNN\",\"Distance\":52},\"5\":{\"latitude\":8.978603,\"longitude\":38.858759,\"Name\":\"Total\",\"RDG\":\"NNN\",\"Distance\":72}}";
   static const LatLng _center =
       const LatLng(8.980603, 38.757759); /*Remove Later*/
   GoogleMapController _controller;
@@ -373,7 +373,7 @@ class _MapView extends State<MapView> {
           ),
           drawerEnableOpenDragGesture: true,
           appBar: AppBar(
-            title: Text("data"),
+            title: Text("Home"),
           ),
           body: Stack(
             children: [
